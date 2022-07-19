@@ -1,0 +1,23 @@
+<!--
+ - Created by mkozub on 12.07.2022.
+ -->
+
+<!-- Test Test -->
+<template>
+    <lightning-card title="HelloWorld" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+
+            <lightning-input label="Show data"
+                             type="checkbox"
+                             value={showData}
+                             onchange={changeShowData}></lightning-input>
+            <p>{showData}</p>
+            <template if:true={showData}>
+                <p>Hello, {greeting}!</p>
+            </template>
+            <lightning-input label="Name"
+                             value={greeting}
+                             onchange={changeHandler}></lightning-input>
+        </div>
+    </lightning-card>
+</template>

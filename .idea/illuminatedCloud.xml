@@ -4,10 +4,10 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="DevMKsfdxLAB" />
+          <option name="connectionName" value="feature1" />
           <option name="connectionType" value="OAUTH" />
           <option name="defaultModuleName" value="DevMKsfdx" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/DevMKsfdxLAB/OfflineSymbolTable.zip" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/feature1/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>
